@@ -12,7 +12,7 @@ The BlissBox Co. an E-commerce App, built with React Native and powered by Redux
 ## Screenshots
 <h3>Signup:</h3>
 <div>
-  <img alt="Demo" src="./README_Img/SignUpImg.jpg" />  
+  <img alt="Demo" src="./README_Img/SignUpImg.jpg" width="200"/>  
 <h3>Login:</h3>
   <img alt="Demo" src="./README_Img/LoginImg.jpg" />
 <h3>Home:</h3>
