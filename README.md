@@ -10,8 +10,8 @@ The BlissBox Co. an E-commerce App, built with React Native and powered by Redux
 - HTML,CSS
 
 ## Screenshots
-<div>
 <h3>Signup:</h3>
+<div>
   <img alt="Demo" src="./README_Img/SignUpImg.jpg" />  
 <h3>Login:</h3>
   <img alt="Demo" src="./README_Img/LoginImg.jpg" />
@@ -21,12 +21,5 @@ The BlissBox Co. an E-commerce App, built with React Native and powered by Redux
   <img alt="Demo" src="./README_Img/CartImg.jpg" />
 
 </div>
-In the project directory, you can run:
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
