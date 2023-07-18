@@ -14,11 +14,11 @@ The BlissBox Co. an E-commerce App, built with React Native and powered by Redux
 <div>
   <img alt="Demo" src="./README_Img/SignUpImg.jpg" width="200"/>  
 <h3>Login:</h3>
-  <img alt="Demo" src="./README_Img/LoginImg.jpg" />
+  <img alt="Demo" src="./README_Img/LoginImg.jpg" width="200" />
 <h3>Home:</h3>
-  <img alt="Demo" src="./README_Img/HomeImg.jpg" />
+  <img alt="Demo" src="./README_Img/HomeImg.jpg" width="200" />
 <h3>Cart:</h3>
-  <img alt="Demo" src="./README_Img/CartImg.jpg" />
+  <img alt="Demo" src="./README_Img/CartImg.jpg" width="200"/>
 
 </div>
 
