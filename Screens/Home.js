@@ -1,10 +1,11 @@
 import { View, Text, Image, StyleSheet, FlatList, ScrollView, TouchableOpacity, } from 'react-native'
-import React, { useState } from 'react'
+import React from 'react'
 import { Products } from '../Products'
 import ProductItem from '../src/common/ProductItem'
 import { add_to_cart, remove_from_cart } from '../src/store/slices/CartSlice'
 import {useDispatch, useSelector} from 'react-redux'
 import { add_to_wishlist } from '../src/store/slices/WishlistSlice'
+
 
 
 
@@ -20,7 +21,7 @@ const Home = () => {
   console.log(addedItemData);
 
 
-  const addItem=(item)=>{
+const addItem=(item)=>{
 dispatch(add_to_cart(item))
 // dispatch(remove_from_cart(item?item.name:null))
 }
@@ -30,10 +31,9 @@ const dispatcher = useDispatch();
   })
   console.log(addedWishlistItemData);
 
-  const [wishlisted, setWishlisted] = useState(false)
+
   const addWishlistItem=(item)=>{
 dispatcher(add_to_wishlist(item))
-setWishlisted(true);
 // dispatch(remove_from_cart(item?item.name:null))
 }
 
